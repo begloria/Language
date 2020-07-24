@@ -6,5 +6,8 @@
     },
     "autoload": {
         "psr-4": {"Language\\": "src/"}
+    },
+    "scripts": {
+        "phpunit": "./vendor/bin/phpunit -c phpunit.xml"
     }
 }
